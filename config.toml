@@ -1,0 +1,25 @@
+theme = "ananke"
+
+
+DefaultContentLanguage = "en"
+copyright = "Everything is mine"
+SectionPagesMenu = "main"
+
+[params.navigation]
+help  = "Help"
+
+[languages]
+[languages.en]
+title = "My blog"
+weight = 1
+linkedin = "english-link"
+
+[languages.fr]
+copyright = "Tout est à moi"
+title = "Mon blog"
+weight = 2
+linkedin = "lien-francais"
+
+# skip params key for front matter
+[languages.fr.navigation]
+help  = "Aide"
